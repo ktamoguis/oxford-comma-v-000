@@ -6,7 +6,7 @@ def oxford_comma(array)
     array.join(" and ")
   else
     while counter < array.length
-      fruitstring = array[counter[0]] <<", "
+      fruitstring = array[counter[0]] << ", "
       counter +=1
     end
     end
