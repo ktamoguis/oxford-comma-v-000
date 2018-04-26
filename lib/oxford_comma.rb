@@ -1,5 +1,6 @@
 def oxford_comma(array)
   counter = 0
+  fruitstring = ""
   if array.length == 1
     array.join
   elsif array.length == 2
