@@ -10,8 +10,6 @@ def oxford_comma(array)
       counter +=1
     end
     fruitstring = fruitstring << "and #{arrray[counter]}"
-    end
-    fruitstring.join
   end
 
 end
