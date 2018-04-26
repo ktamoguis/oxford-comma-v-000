@@ -1,12 +1,14 @@
 def oxford_comma(array)
-  fruitstring = []
+  counter = 0
   if array.length == 1
     array.join
   elsif array.length == 2
     array.join(" and ")
   else
-    array.each do |fruit|
-      fruitstring = fruit << ", "
+    while counter < array.length
+      fruitstring = array[counter] <<", "
+      counter +=1
+    end
     end
     fruitstring.join
   end
